@@ -8,13 +8,13 @@
 .hero{
     /* Hero-bg */
     /* position: absolute; */
-    width: 1440px;
-    height: 652px;
+    /* width: 1440px; */
+    height: 100vh;
     
-    left: 0px;
+    /* left: 0px;
     right: 0;
     top: 131px;
-    bottom: 4462px;
+    bottom: 4462px; */
     background-image: url("../assets/Hero-bg.png"); 
     background-size: cover;
     background-position: center;
