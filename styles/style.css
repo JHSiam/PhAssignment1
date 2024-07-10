@@ -4,6 +4,7 @@
     margin: 0px;
 } */
 
+
 .hero{
     /* Hero-bg */
     position: absolute;
@@ -576,4 +577,136 @@ text-align: left;
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* 5th page */
+.support-page{
+    /* Frame 8 */
+    position: absolute; /* Changed from absolute to relative */
+    width: 1140px;
+    height: 250px;
+    left: 150px;
+    right: 150px;
+    top: 4252px;
+    bottom: 179px;
+    
+    padding: 64px 48px;
+    margin-bottom: 100px; /* This should work now */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../assets/handshake.jpg"); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+}
+.support-heading{
+        /* I need Support */
+    position: static;
+    width: 292px;
+    height: 36px;
+    /* Auto layout */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-dis{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+    position: static;
+    width: 606px;
+    height: 52px;
+
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    opacity: 0.7;
+
+}
+form{
+    display: flex;
+    gap: 16px;
+}
+input{
+    /* Frame 7 */
+    position: static;
+    width: 548px;
+    height: 25px;
+    /* Auto layout */
+    
+    padding: 19px 20px 19px 20px;
+
+    margin: 0px 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.btn3{
+    /* Frame 8 */
+    position: static;
+    width: 120px;
+    height: 64px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+
+    border-radius: 8px;
+    border-color: white;
+
+    background: rgb(255, 255, 255);
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
